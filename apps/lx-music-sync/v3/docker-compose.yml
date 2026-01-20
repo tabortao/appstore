@@ -1,6 +1,6 @@
 services:
   lx-music-sync:
-    image: lyswhut/lx-music-sync-server:v2.1.2
+    image: wbsu2003/lx-music-sync-server:v3
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     ports:
