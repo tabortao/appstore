@@ -1,0 +1,18 @@
+services:
+  lx-music-sync:
+    image: lyswhut/lx-music-sync-server:v2.1.2
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:9527"
+    volumes:
+      - ./data:/server/data
+      - ./logs:/server/logs
+    environment:
+      - LX_USER_${SYNC_USER}=${SYNC_PASSWORD}
+    labels:  
+      createdBy: "Apps"
+
+networks:  
+  1panel-network:  
+    external: true

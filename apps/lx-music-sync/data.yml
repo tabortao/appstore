@@ -1,0 +1,21 @@
+name: LX Music Sync
+tags:
+  - 工具
+  - 音乐
+title: LX Music Sync
+description: LX Music 数据同步服务端，用于收藏列表数据同步
+additionalProperties:
+  key: lx-music-sync
+  name: LX Music Sync
+  tags:
+    - Tools
+    - Music
+  shortDescZh: LX Music 数据同步服务端
+  shortDescEn: LX Music Data Sync Server
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/lyswhut/lx-music-sync-server
+  github: https://github.com/lyswhut/lx-music-sync-server
+  document: https://github.com/lyswhut/lx-music-sync-server

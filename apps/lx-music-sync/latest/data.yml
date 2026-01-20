@@ -1,0 +1,24 @@
+additionalProperties:
+  formFields:
+    - default: 9527
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: admin
+      edit: true
+      envKey: SYNC_USER
+      labelEn: Username
+      labelZh: 用户名
+      required: true
+      type: text
+    - default: password
+      edit: true
+      envKey: SYNC_PASSWORD
+      labelEn: Password
+      labelZh: 密码
+      required: true
+      type: password
