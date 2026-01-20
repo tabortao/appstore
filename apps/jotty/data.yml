@@ -1,0 +1,21 @@
+name: Jotty
+tags:
+  - 建站
+  - 工具
+title: Jotty 笔记
+description: 一个自托管的待办事项和笔记应用
+additionalProperties:
+  key: jotty
+  name: Jotty
+  tags:
+    - Website
+    - Tools
+  shortDescZh: 一个自托管的待办事项和笔记应用
+  shortDescEn: A self-hosted app for your checklists and notes
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://jotty.page
+  github: https://github.com/fccview/jotty
+  document: https://jotty.page
