@@ -1,0 +1,19 @@
+name: wrong-notebook
+tags:
+  - 工具
+title: 智能错题本
+description: 一个基于 AI 的智能错题管理系统，帮助学生高效整理、分析和复习错题。
+additionalProperties:
+  key: wrong-notebook
+  name: wrong-notebook
+  tags:
+    - Tools
+  shortDescZh: 智能错题本
+  shortDescEn: Smart Wrong Notebook
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/wttwins/wrong-notebook
+  github: https://github.com/wttwins/wrong-notebook
+  document: https://github.com/wttwins/wrong-notebook

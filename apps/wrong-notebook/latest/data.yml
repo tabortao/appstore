@@ -1,0 +1,24 @@
+additionalProperties:
+  formFields:
+    - default: 27100
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: ""
+      edit: true
+      envKey: NEXTAUTH_SECRET
+      labelEn: NextAuth Secret
+      labelZh: NextAuth 密钥
+      required: true
+      type: password
+    - default: ""
+      edit: true
+      envKey: NEXTAUTH_URL
+      labelEn: NextAuth URL
+      labelZh: 访问地址
+      required: false
+      type: text
