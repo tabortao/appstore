@@ -1,14 +1,14 @@
 name: Memos
 tags:
     - 实用工具
-title: 轻量级、自托管的备忘录中心
+title: 轻量级、自托管的备忘录中心，国人Chris Curry's 修改版的Memos
 description: 轻量级、自托管的备忘录中心，国人Chris Curry's 修改版的Memos
 additionalProperties:
     key: memos
     name: Memos
     tags:
         - Tool
-    shortDescZh: 轻量级、自托管的备忘录中心
+    shortDescZh: 轻量级、自托管的备忘录中心，国人Chris Curry's 修改版的Memos
     shortDescEn: A lightweight, self-hosted memo hub
     description:
         en: A lightweight, self-hosted memo hub
