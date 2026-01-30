@@ -11,8 +11,7 @@ additionalProperties:
     shortDescZh: 轻量级、自托管的备忘录中心，国人Chris Curry's 修改版的Memos
     shortDescEn: A lightweight, self-hosted memo hub
     description:
-        en: A lightweight, self-hosted memo hub
-
+        en: A lightweight, self-hosted memo hub,Chinese Chris Curry's modified version of Memos
         zh: 轻量级自托管备忘录中心，国人Chris Curry's 修改版的Memos
     type: website
     crossVersionUpdate: false
