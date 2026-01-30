@@ -1,6 +1,6 @@
 services:
   memos:
-    image: chriscurrycc/memos:0.26.5
+    image: chriscurrycc/memos:v0.26.5
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
