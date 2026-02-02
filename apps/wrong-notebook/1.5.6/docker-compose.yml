@@ -1,0 +1,22 @@
+services:
+  wrong-notebook:
+    image: ghcr.io/wttwins/wrong-notebook:1.5.6
+    container_name: ${CONTAINER_NAME}
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:3000"
+    environment:
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+      - AUTH_TRUST_HOST=true
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+    restart: always
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
